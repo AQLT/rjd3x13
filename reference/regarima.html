@@ -62,6 +62,13 @@
 <span>  spec <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"rg4"</span>, <span class="st">"rg0"</span>, <span class="st">"rg1"</span>, <span class="st">"rg2c"</span>, <span class="st">"rg3"</span>, <span class="st">"rg5c"</span><span class="op">)</span>,</span>
 <span>  context <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  userdefined <span class="op">=</span> <span class="cn">NULL</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">jregarima</span><span class="op">(</span></span>
+<span>  <span class="va">ts</span>,</span>
+<span>  spec <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"rg4"</span>, <span class="st">"rg0"</span>, <span class="st">"rg1"</span>, <span class="st">"rg2c"</span>, <span class="st">"rg3"</span>, <span class="st">"rg5c"</span><span class="op">)</span>,</span>
+<span>  context <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  userdefined <span class="op">=</span> <span class="cn">NULL</span></span>
 <span><span class="op">)</span></span></code></pre></div>
     </div>
 
@@ -93,7 +100,10 @@ estimation</p></dd>
     <p>the <code>regarima()</code> function returns a list with the results
 (<code>"JD3_REGARIMA_RSLTS"</code> object), the estimation specification and the result
 specification, while <code>regarima_fast()</code> is a faster function that only returns
-the results.</p>
+the results. The <code>jregarima()</code> functions only returns
+results in a java object which will allow to customize outputs in other
+packages (use <code><a href="https://rjdverse.github.io/rjd3toolkit/reference/dictionary.html" class="external-link">rjd3toolkit::dictionary()</a></code> to get the list of variables and
+<code><a href="https://rjdverse.github.io/rjd3toolkit/reference/dictionary.html" class="external-link">rjd3toolkit::result()</a></code> to get a specific variable)</p>
     </div>
 
     <div class="section level2">
