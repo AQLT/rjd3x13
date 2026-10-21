@@ -23,7 +23,7 @@ Functions to perform seasonal adjustment with X-13ARIMA
 - [`x11()`](https://rjdverse.github.io/rjd3x13/reference/x11.md) : X-11
   Decomposition Algorithm
 
-## RegARIMA
+## RegARIMA Modelling and Forecasting
 
 Functions to perform regARIMA estimation only
 
@@ -31,6 +31,8 @@ Functions to perform regARIMA estimation only
   [`regarima_fast()`](https://rjdverse.github.io/rjd3x13/reference/regarima.md)
   [`jregarima()`](https://rjdverse.github.io/rjd3x13/reference/regarima.md)
   : RegARIMA model, pre-adjustment in X13
+- [`regarima_forecast()`](https://rjdverse.github.io/rjd3x13/reference/regarima_forecast.md)
+  : Forecasts with RegARIMA
 
 ## Outlier Detection
 
